@@ -1,2 +1,2 @@
-# code-exercise-services
-Coding exercise for the PrestoQ services team
+# PrestoQ Services Coding Exercise
+Please review Services Engineer Coding Exercise.pdf for the current coding exercise 
