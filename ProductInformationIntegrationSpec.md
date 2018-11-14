@@ -9,7 +9,7 @@ PrestoQ needs to integrate with a grocery store's product information system so 
 ## Requirements
 Each store has its own product catalog service
 * Changes to product information are published to our integration service using a fixed-width flat file format defined by the store’s point of sale system (specifications below)
-* The store publishes update journal files no more frequently than every 60 seconds
+* The store publishes update journal files at most every 60 seconds
 
 *Input*: Store product catalog information<sup>[1](#footnote1)</sup>.  You can assume that this is a formal API contract that has zero bugs and will never change.
 
