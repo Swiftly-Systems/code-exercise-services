@@ -11,7 +11,7 @@ Each store has its own product catalog service
 * Changes to product information are published to our integration service using a fixed-width flat file format defined by the store’s point of sale system (specifications below)
 * The store publishes update journal files no more frequently than every 60 seconds
 
-*Input*: Store product catalog information<sup>[1](#footnote1)</sup>
+*Input*: Store product catalog information<sup>[1](#footnote1)</sup>.  You can assume that this is a formal API contract that has zero bugs and will never change.
 
 *Output*: A collection of _ProductRecord_ objects<sup>[2](#footnote2)</sup>
 
@@ -56,12 +56,6 @@ The file is in an ASCII-encoded file flat file (fixed width) format with the fol
 * Unit of Measure ("Each" or "Pound").  Weighted items are per pound
 * Product size
 * Tax rate
-
-## What We Care About
-
-Remember, the purpose of this exercise is to have a conversation about your code that is typical of the conversations you’d have at PrestoQ during a pull request. PrestoQ values clean, SOLID, maintainable, testable, self-descriptive code with unit tests.
- 
-If you have any questions, please don't hesitate to email ben@prestoq.com
 
 ______________________________________________________________________________________________________
 <sup><a name="footnote1">1</a></sup> An [example file](../master/input-sample.txt) is included in the GitHub repository for the coding exercise.
