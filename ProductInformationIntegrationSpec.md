@@ -16,7 +16,7 @@ Each store has its own product catalog service
 *Output*: A collection of _ProductRecord_ objects<sup>[2](#footnote2)</sup>
 
 ## Input Data Format
-The file is in an ASCII-encoded file flat file (fixed width) format with the following layout:
+The file is in an ASCII-encoded flat file (fixed width) format with the following layout:
 
 | Start | End [Inclusive] | Name                       | Type     |
 |-------|-----------------|----------------------------|----------|
