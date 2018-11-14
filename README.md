@@ -12,9 +12,7 @@ You can find a redacted product specification [here](../master/ProductInformatio
 
 ## What We're Looking For
 
-Please design the library (interfaces, methods, etc) as something you would plan on checking in.
-
-PrestoQ values self-descriptive, [SOLID](https://en.wikipedia.org/wiki/SOLID), maintainable, testable designs and code.
+Think of this as real code you would be checking in. PrestoQ values self-descriptive, [SOLID](https://en.wikipedia.org/wiki/SOLID), maintainable, testable designs and code.
 
 ## Requirements
 
