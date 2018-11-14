@@ -6,13 +6,13 @@ To introduce PrestoQ to your coding style and technique, we'd like you to do a s
 
 Our hope is that we can use this to seed a discussion that provides us with an understanding of your design and coding abilities and you with an idea of what working at PrestoQ will be like. We believe this better reflects what engineers do than coding common patterns on a white board does.
 
-You can find a redacted product specification [here](../master/ProductInformationIntegrationSpec.md). Please author
-* A library that parses the file that contains product information into a list of ProductRecord objects according to that specification
+You can find a redacted product specification [here](../master/ProductInformationIntegrationSpec.md). Please author:
+* A library that parses store product information into a list of ProductRecord objects according to the specification
 * A simple program that exercises the library by passing it the contents of the [example input file](../master/input-sample.txt) and outputs the collection of ProductRecord objects to a file in JSON format
 
 ## What We're Looking For
 
-The purpose of this exercise is for you to be able to show us some code you wrote so we can discuss it and the decisions you made. Please design the library as something you would plan on checking in.
+Please design the library (interfaces, methods, etc) as something you would plan on checking in.
 
 PrestoQ values self-descriptive, [SOLID](https://en.wikipedia.org/wiki/SOLID), maintainable, testable designs and code.
 
