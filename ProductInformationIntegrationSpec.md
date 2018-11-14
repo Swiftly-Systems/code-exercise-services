@@ -64,6 +64,6 @@ Remember, the purpose of this exercise is to have a conversation about your code
 If you have any questions, please don't hesitate to email ben@prestoq.com
 
 ______________________________________________________________________________________________________
-<sup><a name="footnote1">1</a></sup> An example file is included in the GitHub repository for the coding exercise.
+<sup><a name="footnote1">1</a></sup> An [example file](../master/input-sample.txt) is included in the GitHub repository for the coding exercise.
 
-<sup><a name="footnote2">2</a></sup> For the purposes of this coding exercise, please design a reasonable _ProductRecord_ object. Use of that product object collection to update the database is out of scope of this exercise, however as you design that object it’s reasonable for you to assume that the production system may use that object collection to immediately update the database 
+<sup><a name="footnote2">2</a></sup> This object will be used to update the database, but updating the database isn't part of this exercise
