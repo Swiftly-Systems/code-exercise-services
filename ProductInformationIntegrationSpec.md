@@ -1,4 +1,4 @@
-# Product Information Integration Ingestion Library
+# Product Information Ingestion Library
 
 ## Overview
 
