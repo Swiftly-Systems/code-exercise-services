@@ -12,7 +12,7 @@ You can find a redacted product specification [here](../master/ProductInformatio
 
 ## What We're Looking For
 
-Think of this as real code you would be checking in. PrestoQ values self-descriptive, [SOLID](https://en.wikipedia.org/wiki/SOLID), maintainable, testable designs and code.
+Think of this as real code you would be checking in. PrestoQ values self-descriptive, [SOLID](https://en.wikipedia.org/wiki/SOLID), maintainable, testable designs and code. Other developers should be able to add to this feature or refactor your code when requirements are added or change and have confidence that they aren't introducing any regressions.
 
 ## Requirements
 
