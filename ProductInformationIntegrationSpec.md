@@ -38,6 +38,7 @@ The file is in an ASCII-encoded flat file (fixed width) format with the followin
 * Flag - Y/N
 
 ### Pricing Information
+* Different shoppers qualify for different pricing levels.  For example, a loyalty program member may qualify for pricing level 2 and regular shoppers only qualify for pricing level 1. 
 * Prices can either be a singular price per unit (e.g. $1.00) or a split price (e.g. 2 for $0.99).  Only one price per pricing level will exist.  The other will be all 0's, which indicates there is no price.
 * If a price is split pricing, the Calculator Price is Split Price / For X
 * You can be guaranteed that the input file will follow these rules – consider it a contract that the producer will always abide by.  No error checking is required.
