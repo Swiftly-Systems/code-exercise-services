@@ -16,7 +16,7 @@ Think of this as real code you would be checking in. PrestoQ values self-descrip
 
 ## Requirements
 
-* Use one of the following modern, statically typed languages: Java, C#, Kotlin, F#
+* Use one of the following modern, statically typed languages: Java, C#, Kotlin, F#, Scala
 * Do *not* use any fixed-width format parsing libraries
   * You may use native or third party basic string utility functions like trim, pad, format, etc.
   * We know that you'd probably leverage an existing library if you needed to parse a flat file for a product but this is an exercise.
