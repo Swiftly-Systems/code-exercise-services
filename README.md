@@ -6,20 +6,17 @@ To introduce PrestoQ to your coding style and technique, we'd like you to do a s
 
 Our hope is that we can use this to seed a discussion that provides us with an understanding of your design and coding abilities and you with an idea of what working at PrestoQ will be like. We believe this better reflects what engineers do than coding common patterns on a white board does.
 
-You can find a redacted product specification [here](../master/ProductInformationIntegrationSpec.md). Please author:
-* A library that parses store product information into a list of ProductRecord objects according to the specification
-* A simple program that exercises the library by passing it the contents of the [example input file](../master/input-sample.txt) and outputs the collection of ProductRecord objects to a file in JSON format
+A link to the spec for what we'd like you to build is at the end of these instructions.
 
 ## What We're Looking For
 
-Think of this as real code you would be checking in. PrestoQ values self-descriptive, [SOLID](https://en.wikipedia.org/wiki/SOLID), maintainable, testable designs and code. Other developers should be able to add to this feature or refactor your code when requirements are added or change and have confidence that they aren't introducing any regressions.
+Think of this as real code you would be checking in and shipping to production. PrestoQ leverages all of the [SOLID](https://en.wikipedia.org/wiki/SOLID) principles to produce maintainable, testable designs and code. The team will review your code to discuss how comfortable they would be extending your code to support additional business requirements without introducing any regressions.
 
 ## Requirements
 
-* Use one of the following modern, statically typed languages: Java, C#, Kotlin, F#, Scala
-* Do *not* use any fixed-width format parsing libraries
+* Use one of the following modern, statically typed languages: Java, C#, Kotlin, F#, Scala, Go, Swift, etc.
+* Do *not* use any file/string parsing libraries
   * You may use native or third party basic string utility functions like trim, pad, format, etc.
-  * We know that you'd probably leverage an existing library if you needed to parse a flat file for a product but this is an exercise.
 * Complete this project on your own
 * Use a GitHub repository for source control
   * Email the link to the GitHub repository when you are finished
@@ -36,5 +33,9 @@ Think of this as real code you would be checking in. PrestoQ values self-descrip
     * Ensure that the GitHub readme file is automatically updated with the result of the CI build (AppVeyor has an easy badge that you can embed in your readme.md)
 * Email your PrestoQ contact the link to the GitHub repository when you're ready to submit your project
 
-If you have any questions, don't hesitate to reach out to your PrestoQ contact
+If you have any questions, don't hesitate to reach out to your PrestoQ contact.
+
+## Product Specification
+
+And without further ado, the product specification for the feature is [here](../master/ProductInformationIntegrationSpec.md).
 
