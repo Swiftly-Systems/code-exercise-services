@@ -28,7 +28,7 @@ Think of this as real code you would be checking in and shipping to production. 
     * License it however you'd like (MIT, Apache or Public Domain are great choices)
     * Ensure the license you choose allows PrestoQ employees to read, build, and execute the code for free
 * Set up a continuous integration environment using a free, publicly accessible service
-    * We recommend AppVeyor (https://www.appveyor.com/) 
+    * We recommend AppVeyor (https://www.appveyor.com/) for a project of this size if you don't already have a favorite
     * Configure the CI environment to build directly from your GitHub project when there's a commit to master
     * Ensure that the GitHub readme file is automatically updated with the result of the CI build (AppVeyor has an easy badge that you can embed in your readme.md)
 * Email your PrestoQ contact the link to the GitHub repository when you're ready to submit your project
