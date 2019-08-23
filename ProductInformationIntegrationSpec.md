@@ -44,6 +44,7 @@ The file is in an ASCII-encoded flat file (fixed width) format with the followin
 * You can be guaranteed that the input file will follow these rules – consider it a contract that the producer will always abide by.  No error checking is required.
 
 ### Flags
+The first flag in the left-to-right array is #1
 * If Flag #3 is set, this is a per-weight item
 * If Flag #5 is set, the item is taxable.  Tax rate is always 7.775%
 
