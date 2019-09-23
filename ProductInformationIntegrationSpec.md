@@ -2,7 +2,7 @@
 
 ## Overview
 
-PrestoQ needs to integrate with a grocery store's product information system so our system can stay current with the store's product inventory and pricing.
+Swiftly needs to integrate with a grocery store's product information system so our system can stay current with the store's product inventory and pricing.
 
 ![Product Information Integration Architecture](https://github.com/prestoqinc/code-exercise-services/raw/master/Swiftly_Services_Coding_Exercise_Architecture.png "Product Information Integration Architecture")
 
@@ -33,7 +33,7 @@ The file is in an ASCII-encoded flat file (fixed width) format with the followin
 
 ### Field Data Types
 * Number - an integer value 8-digits long, zero left-padded
-* String - ASCII encoded string, space right-padded
+* String - ASCII encoded string, space right-or-left-padded
 * Currency - US dollar value, where last two digits represent cents.  The leading zero will be replaced with a dash if the value is negative
 * Flag - Y/N
 
