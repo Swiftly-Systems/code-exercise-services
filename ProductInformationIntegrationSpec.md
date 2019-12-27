@@ -2,7 +2,7 @@
 
 ## Overview
 
-Swiftly needs to integrate with a grocery store's product information system so our system can stay current with the store's product inventory and pricing.
+Swiftly needs to integrate with a grocery store's product information system so our system can stay current with the store's product inventory and pricing.  Another dev will be responsible for ingesting the files and passing their contents to the processing library you create based on the requirements below.
 
 ![Product Information Integration Architecture](https://github.com/prestoqinc/code-exercise-services/raw/master/Swiftly_Services_Coding_Exercise_Architecture.png "Product Information Integration Architecture")
 
