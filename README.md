@@ -21,7 +21,7 @@ Think of this as real code you would be checking in and shipping to production. 
 * Use a GitHub repository for source control
   * Email the link to the GitHub repository when you are finished
   * The readme.md file should include (at a minimum)
-    * Instructions for running the project
+    * Instructions for running the project (you can create a simple executable wrapper around your library, for example)
     * Link to the latest Continuous Integration build/release
     * Any other information you would normally include when you author a readme
   * This code is your intellectual property
