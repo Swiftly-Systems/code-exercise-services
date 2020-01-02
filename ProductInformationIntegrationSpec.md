@@ -50,9 +50,9 @@ The first flag in the left-to-right array is #1
 ## ProductRecord object should contain at a minimum:
 * Product ID
 * Product Description
-* Regular Display Price (English-readable string)
+* Regular Display Price (English-readable string of your choosing, e.g. "$1.00" or "3 for $1.00")
 * Regular Calculator Price (price the calculator should use, rounded to 4 decimal places, half-down)
-* Promotional Display Price, if it exists
+* Promotional Display Price, if it exists (same format as regular display price string)
 * Promotional Calculator Price, if it exists
 * Unit of Measure ("Each" or "Pound").  Weighted items are per pound
 * Product size
