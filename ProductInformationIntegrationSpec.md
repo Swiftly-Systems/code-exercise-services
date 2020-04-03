@@ -11,12 +11,12 @@ Each store has its own product catalog service
 * Changes to product information are published to our integration service using a fixed-width flat file format defined by the store’s point of sale system (specifications below)
 * The store publishes update journal files at most every 60 seconds
 
-*Input*: Store product catalog information<sup>[1](#footnote1)</sup>.  You can assume that this is a formal API contract that has zero bugs and will never change.
+*Input*: Store product catalog information<sup>[1](#footnote1)</sup>. You can assume that this is a formal third-party API contract that has been rigorously validated and if there are any lines that don't adhere to the schema, they can be skipped.
 
 *Output*: A collection of _ProductRecord_ objects<sup>[2](#footnote2)</sup>
 
 ## Input Data Format
-The file is in an ASCII-encoded flat file (fixed width) format with the following layout:
+The file is in an ASCII-encoded flat file (fixed width) format. For this first phase of the project, you only need to ingest the first 10 fields of the record. There are actually several hundred fields that you'll add to the data model once you've circled back with the team on this first phase and there's consensus on the pattern you introduce. Here's the schema of the first 10 fields:
 
 | Start | End [Inclusive] | Name                       | Type     |
 |-------|-----------------|----------------------------|----------|
@@ -30,6 +30,7 @@ The file is in an ASCII-encoded flat file (fixed width) format with the followin
 | 115   | 122             | Promotional For X          | Number   |
 | 124   | 132             | Flags                      | Flags    |
 | 134   | 142             | Product Size               | String   |
+...
 
 ### Field Data Types
 * Number - an integer value 8-digits long, zero left-padded
