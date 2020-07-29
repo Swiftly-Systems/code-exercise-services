@@ -7,7 +7,7 @@ Swiftly needs to integrate with a grocery store's product information system so 
 ![Product Information Integration Architecture](https://github.com/prestoqinc/code-exercise-services/raw/master/Swiftly_Services_Coding_Exercise_Architecture.png "Product Information Integration Architecture")
 
 ## Requirements
-Each store has its own product catalog service
+Each store in a grocery chain has its own product catalog service
 * Changes to product information are published to our integration service using a fixed-width flat file format defined by the store’s point of sale system (specifications below)
 * The store publishes update journal files at most every 60 seconds
 
